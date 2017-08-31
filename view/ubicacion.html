@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Ubicate con Lyft</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/validar.css">
+</head>
+<body>
+	<main>
+		<div class="row ">
+			<!-- <div class="col s12 m2 usuario"> -->
+				<img class="usuario" src="../assets/user.png">
+			<!-- </div> -->
+		</div>
+		<section id="mapa" class="mapa">
+		</section>
+		<div  class="row">
+			<div class="col s10 offset-s1 center direccion">
+				<p id="direccion"></p>
+			</div>
+		</div>
+	</main>
+	<footer class="row ">
+		<button type="submit" id="btn-siguiente" class="waves-effect pink darken-1 btn col s10 offset-s1 btn-siguiente">
+			Pedir un Lyft
+		</button>
+	<footer>
+	<script src="../js/jquery-3.2.1.min.js"></script>
+	<script src="../js/materialize.min.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-cMvZ8V6F7KdwOCsedg6qe6kLVeQwcXQ">
+    </script>
+	<script src="../js/ubicacion.js"></script>
+</body>
+</html>

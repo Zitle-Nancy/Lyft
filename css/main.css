@@ -1,0 +1,20 @@
+/*@autor: Nancy Zitle Juarez 
+Fecha de inicio : 06/06/2017*/
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	/*background: linear-gradient( 0deg, #e02fbf, #35053a 40%, #d1bcd6);*/
+	background: -webkit-linear-gradient(-45deg, #530060 10%,#EA0B8C 100%);
+}
+.container{
+	height: 100vh;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.circulo{
+	position: absolute;
+}
+
